@@ -1,4 +1,4 @@
-import {FaInstagram, FaXTwitter, FaYoutube} from "react-icons/fa6";
+import {FaInstagram, FaXTwitter, FaGithub} from "react-icons/fa6";
 
 const FollowOn = () => {
   return (
@@ -7,13 +7,13 @@ const FollowOn = () => {
     >
       <span>Follow on:</span>
       <div className="flex gap-4 pt-3">
-        <a href="">
-          <FaYoutube size={20} />
+        <a href="https://github.com/Techie-Gautam">
+          <FaGithub size={20} />
         </a>
         <a href="">
           <FaInstagram size={20} />
         </a>
-        <a href="">
+        <a href="https://x.com/TechieGautam48">
           <FaXTwitter size={20} />
         </a>
       </div>
